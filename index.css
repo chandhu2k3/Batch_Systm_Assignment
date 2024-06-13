@@ -79,7 +79,9 @@ sup{
     height: 13rem;
     border-radius: 50%;
     opacity: 0.5;
-    background: radial-gradient(#fb5d5d 50%, rgba(173, 161, 161, 0) 100%); 
+    background: radial-gradient(circle, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.3));
+    box-shadow: 0 0 50px 30px rgba(255, 0, 0, 0.6), 0 0 70px 40px rgba(255, 255, 0, 0.3);
+    filter: blur(30px);
     position: absolute;
     top: 16rem;
     left: 19rem;
@@ -91,8 +93,10 @@ sup{
     height: 10rem;
     border-radius: 50%;
     opacity: 0.5;
-    background: radial-gradient( rgba(249, 14, 30, 0.816) 10%, rgba(173, 161, 161, 0) 100%); 
-    position: absolute;
+    background: radial-gradient(circle, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.3));
+    box-shadow: 0 0 50px 30px rgba(255, 0, 0, 1), 0 0 70px 40px rgba(255, 255, 0, 0.3);
+    filter: blur(30px);   
+     position: absolute;
     top: 42rem;
     left: 55rem;
     transform: translate(50%, -50%);
@@ -104,8 +108,10 @@ sup{
     height: 18rem;
     border-radius: 50%;
     opacity: 0.5;
-    background: radial-gradient(   rgba(249, 14, 30, 0.816) 10%, rgba(173, 161, 161, 0) 100%); 
-    position: absolute;
+    background: radial-gradient(circle, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.3));
+    box-shadow: 0 0 50px 30px rgba(255, 0, 0, 0.6), 0 0 70px 40px rgba(255, 255, 0, 0.3);
+    filter: blur(30px);
+   position: absolute;
     top: 74rem;
     left: 0rem;
     transform: translate(50%, -50%);
@@ -115,19 +121,25 @@ sup{
 .shaded-circle4{
     width: 10rem; /* Half the viewport width */
     height: 20rem; /* Full viewport height */
-    background: radial-gradient(rgba(251, 93, 93,0.8) 50%, rgba(173, 161, 161, 0) 100%);
-    border-top-left-radius: 100vh; /* Create the top-left rounded corner */
+    background: radial-gradient(circle, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.3));
+    box-shadow: 0 0 50px 30px rgba(255, 0, 0, 0.6), 0 0 70px 40px rgba(255, 255, 0, 0.3);
+    filter: blur(30px);
+        border-top-left-radius: 100vh; /* Create the top-left rounded corner */
     border-bottom-left-radius: 100vh; /* Create the bottom-left rounded corner */
     position: absolute; /* Position the element absolutely */
     right: 0;
     top: 70rem;
 }
 .shaded-circle5{
-    width: 21rem;
-    height: 18rem;
+   
+    border: none;
+    width: 22rem;
+    height: 20rem;
     border-radius: 50%;
     opacity: 0.5;
-    background: radial-gradient(   rgba(249, 14, 30, 0.816) 10%, rgba(173, 161, 161, 0) 100%); 
+    background: radial-gradient(circle, rgba(255, 0, 0, 1), rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.3));
+    box-shadow: 0 0 50px 30px rgba(255, 0, 0, 0.6), 0 0 70px 40px rgba(255, 255, 0, 0.3);
+    filter: blur(30px);
     position: absolute;
     top: 132rem;
     right: 35rem;
