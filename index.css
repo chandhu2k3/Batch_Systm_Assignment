@@ -421,7 +421,7 @@ transform: translate(-5rem,-50rem);
 }
 .leftp3total{
     display: flex;
-    
+    padding-bottom: 10rem;
     height: 35rem;
 }
 #mobilep3{
